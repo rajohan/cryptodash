@@ -29,7 +29,7 @@ const ControlButton = ({name, active}) => {
 };
 
 const AppBar =  () => {
-    return(
+    return (
         <Bar>
             <Logo>CryptoDash</Logo>
             <div />
