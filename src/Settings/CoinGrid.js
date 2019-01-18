@@ -21,7 +21,7 @@ const CoinGrid = ({topSection}) => {
             {({coinList, favorites}) => (
                 <CoinGridStyled>
                     {getCoinsToDisplay(coinList, topSection, favorites)
-                        .map(coinKey => <CoinTile topSection={topSection} coinKey={coinKey} />)}
+                        .map(coinKey => <CoinTile topSection={topSection} coinKey={coinKey} key={coinKey} />)}
                 </CoinGridStyled>
             )}
         </AppContext.Consumer>
