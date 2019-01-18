@@ -6,6 +6,7 @@ export const Tile = styled.div`
     ${subtleBoxShadow};
     ${lightBlueBackground};
     padding: 10px;
+    text-align: center;
 `;
 
 export const SelectableTile = styled(Tile)`
