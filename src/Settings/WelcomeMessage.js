@@ -2,7 +2,7 @@ import React from "react";
 
 import {AppContext} from "../App/AppProvider";
 
-const WelcomeMessage = ({firstVisit}) => {
+const WelcomeMessage = () => {
     return (
         <AppContext.Consumer>
             {({firstVisit}) => firstVisit ?
