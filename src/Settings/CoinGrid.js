@@ -29,7 +29,7 @@ const CoinGrid = ({topSection}) => {
                 </CoinGridStyled>
             )}
         </AppContext.Consumer>
-    )
+    );
 };
 
 export default CoinGrid;
